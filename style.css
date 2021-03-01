@@ -1,0 +1,146 @@
+/* Defult style */
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+}
+
+/* Top Header */
+.top-header{
+  background-color: #1f77d3; 
+  height: 50px; 
+  text-align: center;
+}
+
+/* Big Header */
+.big-header{
+  text-align: center;
+  width: 100%;
+  background-color: #e9f2f9;
+  height: auto;
+}
+
+/* Main Body */
+.main-body{
+  text-align: center;
+  width: 100%;
+  height: auto;
+  padding:20px 20px 20px 5px;
+
+  
+
+}
+.main-body>.alert>h1{
+  color: #f26c4f;
+  font-size: 18px;
+}
+
+/* Main Body > Contenct */
+.content {
+  height: auto;
+
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 640px;
+  text-align:center;
+
+}
+
+/* Main Body > Content > Left */
+.left {
+  float:left;
+  width:50%;
+  text-align:center;
+  padding: 20px 0px 0px 20px;
+}
+.content>.left>h1{
+  color: #f26c4f;
+  font-size: 18px;
+  text-align: left;
+}
+.content>.left>p{
+  text-align: left;
+  font-size: 14px;
+}
+.content>.left>button{
+  width: 100%;
+  height: 35px;
+  color: #e9f2f9;
+  font-weight: bold;
+  background-color: #3a89c9;
+  border: 0;
+  box-shadow: none;
+  border-radius: 0px;
+}
+
+/* Main Body > Content > Right */
+.right {
+
+  float:left;
+  width:50%;
+  padding: 20px 0px 0px 20px;
+  text-align:center;
+}
+.content>.right>h1{
+  color: #f26c4f;
+  font-size: 18px;
+  text-align: left;
+}
+.content>.right>p{
+  text-align: left;
+  font-size: 14px;
+}
+.content>.right>button{
+  width: 100%;
+  height: 35px;
+  color: #e9f2f9;
+  font-weight: bold;
+  background-color: #3a89c9;
+  border: 0;
+  box-shadow: none;
+  border-radius: 0px;
+}
+.content>.right>button:checked{
+  border-color: white;
+}
+
+/* Footer */
+.footer{
+  background-color: #E9F2F9;
+  color: #f26c4f;
+  height: 40px; 
+  text-align: center;
+  float: left;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.footer>a{
+  
+  color:red;
+}
+
+/* CSS for specific screen width(s) 480px*/
+@media only screen and (max-width: 480px) {
+  .content {
+    width: 100%;
+ }
+  .menu, .main, .right {
+    width:100%;
+  }
+}
+
+/* CSS for specific screen width(s) 720px*/
+@media only screen and (max-width: 720px) {
+  .left {
+    width:100%;
+  }
+  .content {
+  
+    width: 100%;
+  }
+  .menu, .main, .right {
+    width:100%;
+  }
+}
